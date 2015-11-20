@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = 'MACircleProgressIndicator/MACircleProgressIndicator.{h,m}'
   s.requires_arc = true
+      s.tvos.deployment_target = '9.0'
 end
